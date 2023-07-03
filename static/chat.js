@@ -1,3 +1,6 @@
+/*
+    Helper functions to get things done
+*/
 function get(selector, root = document) {
   return root.querySelector(selector);
 }
